@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta> <charset="utf8">
+		<title>José Maurício</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header> <!--Cabeçalho da página-->
+			<img src="Foto linkedin.jpg" alt="Foto de perfil" class="photo"> <!-- Nesta linha foi incluida uma foto que fica
+			no cabeçalho da página. 
+			Com o comando "<img src="nome do arquivo que está em minha pasta" - abre-se e fecha ("")
+			logo após uso o comando "alt=" "para fazer um comentário sobre a foto"
+			ex.: <img src="Foto linkedin.jpg" alt="Foto de perfil"> -->
+			<h1 id="title">José Maurício</h1> <!--Adicionado "h1" - único h1 da página e é o título da página-->
+		</header>
+		<section> <!--Add section para adicionar uma lista de posts-->
+			<header> <!--Adicionado o header para mostrar o titulo.-->
+				<h2 class="subtitle">Posts</h2>
+			</header>
+			<article class="post"> <!--Add article-->
+				<header> <!--Adicionado dentro do heard o H3 com o número do post.-->
+					<h3 class="post_title">Post #1</h3>
+					<img src="codigos-html-para-paginas-web.jpeg" alt="Editor de texto contendo codigos-html-para-paginas-web" class="post_image"> <!--Aqui foi criado
+					uma imagém que fica após o texto "POST #1"
+					<img src="codigos-html-para-paginas-web.jpeg" alt="Editor de texto contendo codigos-html-para-paginas-web"> -->
+                </header>
+				<p class="post_content"> <!--Tags para Texto com "<p> </p>", tags para colocar link com: "<a> </a>"
+				1- Selecionar uma pequena parte do texto, adicionar as tag "<a" e entre a abertura
+					e o fechamento da tag colar o texto removido e fechar: </a> - exemplo
+				<a >Lorem ipsum</a>
+				2-  Para direcionar adicionaremos o atributo href="link para direcionamento: 
+				ex.: <a hraf="http://www.google.com/">Lorem ipsum</a> (porém com atributo,
+				o direcionamento é feito dentro da página atual).
+				3- Como abrir a página em outra aba? usando o comando já relatado acima, vamos
+				adicionar o atributo target="_blanck"
+				ex.: <a hraf="http://www.google.com/"target="_blank">Lorem ipsum</a> - dessa forma. -->
+                O que é Lorem Ipsum?
+				Lorem Ipsum é <a href="https://www.linkedin.com/in/josemauricio-rodriguesdelima/"target="_blank">simplesmente um texto fictício</a> da indústria de impressão
+				e composição. <a href="mailto:mauricio.rodriguesdelima@gmail.com">Lorem Ipsum</a> tem sido o texto fictício padrão da indústria
+				desde os anos 1500, quando um impressor desconhecido pegou uma galé do
+				tipo e embaralhou para fazer um livro de amostra de tipos. Ele sobreviveu
+				não apenas cinco séculos, mas também ao salto para a composição eletrônica,
+				permanecendo essencialmente inalterado. Ele foi popularizado na década de
+				1960 com o lançamento de folhas de Letraset contendo passagens de Lorem
+				Ipsum e, mais recentemente, com software de editoração eletrônica como
+				Aldus PageMaker incluindo versões de Lorem Ipsum.
+				<!-- Para adicionar um link para email o processo é basicamente o mesmo.
+				ex.: <a hraf="mailto:mauricio.rodriguesdelima@gmil.com">Lorem ipsum</a> -->
+				</p>
+            </article>
+		</section>
+		<footer> <!--Adicionar futuramente lista de contatos.-->
+		  <ul class="contacts_list">
+			<li>
+				<a href="mailto:mauricio.rodriguesdelima@gmail.com">mauricio.rodriguesdelima@gmail.com</a>	
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/josemauricio-rodriguesdelima/" target="_blank">LinkedIn</a>
+			</li>
+			<li>
+				<a href="https://github.com/JMAURICIORLIMA" target="_blank">GitHub</a>
+			</li>
+		</ul>	
+		</footer> <!--fechamento do Footer.-->
+	</body>
+</html>
